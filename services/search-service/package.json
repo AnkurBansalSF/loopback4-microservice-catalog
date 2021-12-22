@@ -1,6 +1,6 @@
 {
   "name": "@sourceloop/search-service",
-  "version": "0.2.7",
+  "version": "0.3.0",
   "description": "A microservice to search over provided models.",
   "keywords": [
     "loopback-application",
@@ -9,7 +9,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "engines": {
-    "node": ">=10.16"
+    "node": "12 || 14 || 16 || 17"
   },
   "scripts": {
     "build": "npm run clean && lb-tsc",
@@ -57,7 +57,7 @@
     "@loopback/rest": "^10.1.0",
     "@loopback/rest-explorer": "^3.3.4",
     "@loopback/service-proxy": "^3.2.4",
-    "@sourceloop/core": "^3.2.0",
+    "@sourceloop/core": "^4.0.0",
     "dotenv": "^10.0.0",
     "dotenv-extended": "^2.9.0",
     "loopback-connector-postgresql": "^5.4.0",
@@ -72,6 +72,7 @@
   },
   "devDependencies": {
     "@loopback/build": "^7.0.2",
+    "@loopback/cli": "^2.22.1",
     "@loopback/eslint-config": "^11.0.2",
     "@loopback/testlab": "^3.4.4",
     "@types/mocha": "^9.0.0",
